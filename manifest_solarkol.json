@@ -1,0 +1,16 @@
+{
+  "name": "Solarkol",
+  "version": "1.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "firmware/solarkol/bootloader.bin", "offset": 4096 },
+        { "path": "firmware/solarkol/partition-table.bin", "offset": 32768 },
+        { "path": "firmware/solarkol/ota_data_initial.bin", "offset": 53248 },
+        { "path": "firmware/solarkol/recovery.bin", "offset": 65536 },
+        { "path": "firmware/solarkol/main.bin", "offset": 1376256 }
+      ]
+    }
+  ]
+}

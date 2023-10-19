@@ -1,0 +1,16 @@
+{
+  "name": "Kolarc",
+  "version": "1.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "firmware/kolarc/bootloader.bin", "offset": 4096 },
+        { "path": "firmware/kolarc/partition-table.bin", "offset": 32768 },
+        { "path": "firmware/kolarc/ota_data_initial.bin", "offset": 53248 },
+        { "path": "firmware/kolarc/recovery.bin", "offset": 65536 },
+        { "path": "firmware/kolarc/i2s.bin", "offset": 1376256 }
+      ]
+    }
+  ]
+}
