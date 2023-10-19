@@ -2,6 +2,7 @@ database.rules.json
 firebase.json
 .firebaserc
 /public
+/.firebase
 
 # Logs
 logs
